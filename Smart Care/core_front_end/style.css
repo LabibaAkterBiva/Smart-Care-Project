@@ -1,0 +1,240 @@
+/** @format */
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color:rgb(146, 220, 220);
+  padding: 2rem 0;
+}
+body {
+  /* width: 1200px; */
+  border: 1px solid gray;
+  margin: auto;
+  background-color:aliceblue;
+}
+
+a {
+  text-decoration: none;
+}
+a {
+  text-decoration: none;
+}
+
+.logo_container {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: #000;
+  text-decoration: none;
+}
+
+.nav_items {
+  display: flex;
+  gap: 1rem;
+  list-style: none;
+  font-size: 1.2rem;
+}
+
+.nav_items li:hover {
+  cursor: pointer;
+  font-weight: 500;
+  color: cyan;
+}
+
+.container {
+  width: 1280px;
+  margin: 0 auto;
+}
+
+
+.hero {
+  height: 450px;
+  margin: auto;
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+  align-items: center;
+  background: linear-gradient(cyan, rgb(33, 137, 137));
+  box-shadow: 4px 4px 8px gray;
+  border-radius: 10px;
+}
+.left {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.bn-img {
+  width: 325px;
+  /* margin-top: -50px; */
+}
+.left h1 {
+  font-size: 3.5rem;
+  font-weight: bold;
+  color: hwb(180 0% 57%);
+}
+
+.left p {
+  font-size: 1.2rem;
+}
+
+.right {
+  width: 325px;
+  margin-top: -50px;
+}
+
+.right img {
+  margin-top: -6.8rem;
+  margin-right: 0px;
+}
+.doc-img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+}
+
+.customer_name {
+  color: hwb(180 5% 60%);
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.service_head {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 5rem 0;
+}
+
+.service_head h2 {
+  font-size: 2.5rem;
+  color: hwb(180 5% 60%);
+  font-weight: 700;
+}
+
+.service_head p {
+  font-size: 1rem;
+  width: 50%;
+}
+
+.search_doctors {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  gap: 1rem;
+}
+
+.doc_card_img {
+  width: 8rem;
+  height: 8rem;
+}
+
+.review_title {
+  color: hwb(180 5% 60%);
+}
+.review_card {
+  width: 25rem;
+  height: auto;
+  padding: 2rem;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+  text-align: center;
+ 
+}
+
+
+.review_card h3 {
+  color: hwb(180 5% 60%);
+}
+
+.review_card img {
+  width: 6rem;
+  height: 6rem;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+footer {
+  background: linear-gradient(
+    45deg,
+    rgb(32, 195, 232) 0%,
+    rgb(15, 168, 185) 0%,
+    rgb(5, 142, 157) 0%
+  );
+  padding: 5rem;
+  align-items: center;
+  list-style: none;
+  color: #d2d2d2;
+}
+
+.details img {
+  height: 10rem;
+  width: 10rem;
+  border-radius: 50%;
+ 
+}
+
+  .simage img {
+    width: 100%; /* Image will take up the full width of its container */
+    max-width: 500px; /* Optional: Set a maximum width */
+    height: auto; /* Aspect ratio maintained */
+  }
+.doctor_name {
+  color: hwb(180 5% 60%);
+}
+
+.login_img {
+  width: 45rem;
+  height: auto;
+  margin: 0 auto;
+}
+
+.login_heading{
+  color: hwb(180 5% 60%);
+}
+
+.user-detais-container {
+  background-color: bisque;
+  margin: auto;
+}
+
+.user-img img {
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+}
+
+.user-all {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.all-appointment-container {
+  width: 90%;
+  margin: auto;
+}
+
+.doctor {
+  width: 350px;
+  height: 400px;
+  box-shadow: 4px 4px 8px gray;
+  text-align: center;
+  background-color: gray;
+  color: white;
+  border-radius: 10px;
+}
+
+.symtom {
+  width: 50%;
+  padding: 20px;
+  margin: 20px;
+  border: none;
+}

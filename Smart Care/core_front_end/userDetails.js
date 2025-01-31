@@ -1,0 +1,30 @@
+const loadUserDetails = () => {
+  const user_id = localStorage.getItem("user_id");
+  fetch(`http://127.0.0.1:8000/users/${user_id}`)
+      .then((res) => res.json())
+      .then((data) => {
+        const patient_id = localStorage.getItem("patient_id");
+        fetch(`http://127.0.0.1:8000/patient/list/${patient_id}`).
+        then((res) => res.json())
+        .then((pdata) => {
+
+          const parent = document.getElementById("user-detais-container");
+          const div = document.createElement("user-all");
+          div.classList.add("user-all");
+          div.innerHTML = `
+          <div class="user-img">
+          <img src="${pdata.image}" alt="" />
+        </div>
+        <div class="user-info">
+          <h1>${data.username}</h1>
+          <h3>${data.first_name + " "+data.last_name}</h3>
+          <h3>${data.email}</h3>
+        </div>
+          `;
+          parent.appendChild(div);
+        })
+          
+      });
+};
+loadUserDetails();
+

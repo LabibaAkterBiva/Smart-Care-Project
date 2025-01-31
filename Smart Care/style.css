@@ -1,0 +1,97 @@
+body{
+    width: 1200px;
+    /*border: 1px solid gray;*/
+    margin: auto;
+    background-color: rgb(241, 234, 234);
+}
+li{
+    list-style: none;
+}
+nav{
+    background-color: aqua;
+}
+.menu-items{
+    font-size: 20px;
+}
+.menu-items:hover{
+    color: white;
+    cursor: pointer;
+}
+.banner-container{
+    width: 1200px;
+    height: 500px;
+    margin: auto;
+    padding: 30px;
+}
+.banner{
+    height: 450px;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+    background: linear-gradient(cyan, rgb(33, 137, 137));
+    box-shadow: 4px 4px 8px gray;
+    border-radius: 10px;
+}
+.banner-right-image{
+    width: 325px;
+    margin-top: -50px;
+
+}
+.banner-left-text{
+    width: 50%;
+    margin: auto;
+
+}
+.service-container{
+    width: 1200px;
+    margin: 50px auto auto;
+}
+.carousel-title{
+    font-size: 44px;
+    color: aqua;
+    text-align: center;
+}
+.doctor-container{
+    margin-top: 50px;
+    padding: 30px;
+}
+.doctor-card{
+    width: 300px;
+    height: 350px;
+    box-shadow: 4px 4px 8px gray;
+    border-radius: 10px;
+    text-align: center;
+    padding: 15px;
+}
+.doctor-image{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+}
+#doctor-search{
+    width: 75%;
+    padding: 10px;
+    border: none;
+}
+.no-data{
+    display: none;
+}
+.review-card{
+    width: 250px;
+    height: 300px;
+    box-shadow: 4px 4px 8px gray;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+}
+.review-card img{
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+}
+footer{
+    background: linear-gradient(rgba(28, 168, 199, 1), rgba(67, 159, 165, 1), rgba(76, 125, 140, 1));
+    padding: 50px;
+}
+/*------------------------------------------------------------------------------------------------------------------------------*/

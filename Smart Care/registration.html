@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8"/>
+    <meta http-equiv="x-ua-compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+    <title>Hospital Management System</title>
+
+    <!-- Bootstrap is included via CDN. -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+          crossorigin="anonymous">
+
+    <!-- CSS file style.css is linked with this html. -->
+    <link rel="stylesheet" href="../core_front_end/style.css">
+    <link rel="stylesheet" href="../core_front_end/registration.css">
+
+    <!-- CSS file for the services carousel is connected via CDN, which is collected from the Swiffy Slider documentation. -->
+    <link href="https://cdn.jsdelivr.net/npm/swiffy-slider@1.6.0/dist/css/swiffy-slider.min.css"
+          rel="stylesheet"
+          crossorigin="anonymous">
+
+</head>
+
+<body>
+<!---------------------------------------------------------------------------------------------------------------------------------->
+
+
+<header>
+    <!--NAVBAR STARTS HERE-->
+    <nav class="d-flex justify-content-around align-items-center p-4">
+        <div class="logo-container d-flex align-item-center gap-2">
+            <img src="images/stethoscope%201.png" alt="">
+            <h3>SmartCare</h3>
+        </div>
+        <div class="menu-container d-flex gap-3">
+            <li class="menu-items"><a href="index.html">Home</a></li>
+            <li class="menu-items">Services</li>
+            <li class="menu-items">Contact Us</li>
+            <li  class="menu-items"><a target="_blank" href="login.html">Login</a></li>
+        </div>
+    </nav>
+    <!--NAVBAR ENDS HERE-->
+</header>
+
+
+<main>
+
+    <!--LOGIN FORM STRATS HERE-->
+    <h1 class="login-title">Sign Up</h1>
+    <div class="login-container">
+        <div class="col-md-6">
+            <form action="">
+                <input type="text" class="input" placeholder="First Name" required>
+                <input type="text" class="input" placeholder="Last Name" required>
+                <input type="email" class="input" placeholder="Email" required>
+                <input type="text" class="input" placeholder="Username" required>
+                <input type="password" class="input" placeholder="Password" required>
+                <input type="password" class="input" placeholder="Confirm Password" required>
+                <button onclick="handleRegistration()" type="submit" class="btn btn-sm btn-primary submit-button">Signup</button>
+            </form>
+            <small class="m-3">Already registered? Click <a href="login.html">Sign In</a>.</small>
+        </div>
+        <div class="col-md-6">
+            <img class="w-100" src="images/reg.png" alt="">
+        </div>
+    </div>
+    <!--LOGIN FORM ENDS HERE-->
+
+</main>
+
+
+<footer class="p-5">
+    <!--FOOTER STARTS HERE-->
+    <div class="footer-container row w-75 m-auto p-5">
+        <div class="col-md-6">
+            <p><small>Copyright © Smartcare. All Rights Reserved</small></p>
+            <h5>Follow Us</h5>
+            <div class="icons">
+                <img class="icon" src="./images/LinkedIn.png" alt="linkedin-icon">
+                <img class="icon" src="./images/YouTube.png" alt="youtube-icon">
+            </div>
+        </div>
+        <div class="col-md-3">
+            <h5>Company</h5>
+            <li>About</li>
+            <li>Contact Us</li>
+            <li>Career</li>
+            <li>Culture</li>
+            <li>Blog</li>
+        </div>
+        <div class="col-md-3">
+            <h5>Support</h5>
+            <li>Getting started</li>
+            <li>Help center</li>
+            <li>Server status</li>
+            <li>Report a bug</li>
+            <li>Chat support</li>
+        </div>
+    </div>
+    <hr>
+    <p class="text-center mt-3"><small>Copyright © Smartcare. All Rights Reserved</small></p>
+    <!--FOOTER ENDS HERE-->
+</footer>
+
+
+<!---------------------------------------------------------------------------------------------------------------------------------->
+
+<!-- JavScript file app.js is linked with this html. -->
+<script src="../core_front_end/doctor_details.js"></script>
+<script src="../core_front_end/auth.js"></script>
+
+<!-- JavScript for Bootstrap is included via CDN. -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous">
+</script>
+
+<!-- JavaScript file for the services carousel is connected via CDN, which is collected from the Swiffy Slider documentation. -->
+<script src="https://cdn.jsdelivr.net/npm/swiffy-slider@1.6.0/dist/js/swiffy-slider.min.js"
+        crossorigin="anonymous"
+        defer>
+</script>
+
+
+</body>
+</html>
